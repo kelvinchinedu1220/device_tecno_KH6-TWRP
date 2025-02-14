@@ -6,7 +6,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrpKH6.mk
+    $(LOCAL_DIR)/twrp_KH6.mk
 
 COMMON_LUNCH_CHOICES := \
     twrp_KH6-user \
