@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_KH6.mk
+    $(LOCAL_DIR)/pb_KH6.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_KH6-user \
-    twrp_KH6-userdebug \
-    twrp_KH6-eng
+    pb_KH6-user \
+    pb_KH6-userdebug \
+    pb_KH6-eng
