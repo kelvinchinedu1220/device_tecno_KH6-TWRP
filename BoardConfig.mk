@@ -180,6 +180,9 @@ TW_INCLUDE_LPTOOLS := true
 # TWRP-Specific configuration
 TW_EXCLUDE_APEX := true
 
+# System 
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+
 # Density / StatusBar
 TW_FRAMERATE := 60
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
