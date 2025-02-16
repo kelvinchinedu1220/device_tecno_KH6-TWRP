@@ -15,14 +15,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 # Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
-# Inherit some common TWRP stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+# Inherit some common PBRP stuff.
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Inherit from KH6 device
 $(call inherit-product, device/tecno/KH6/device.mk)
 
 PRODUCT_DEVICE := KH6
-PRODUCT_NAME := twrp_KH6
+PRODUCT_NAME := pb_KH6
 PRODUCT_BRAND := TECNO
 PRODUCT_MODEL := TECNO KH6
 PRODUCT_MANUFACTURER := tecno
