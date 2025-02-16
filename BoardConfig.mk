@@ -7,6 +7,9 @@
 
 DEVICE_PATH := device/tecno/KH6
 
+# Build Hack
+BUILD_BROKEN_DUP_RULES := true
+
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
@@ -61,8 +64,6 @@ BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
-TARGET_KERNEL_CONFIG := TECNO-KH6_defconfig
-TARGET_KERNEL_SOURCE := kernel/tecno/TECNO-KH6
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
