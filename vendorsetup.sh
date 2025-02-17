@@ -1,3 +1,5 @@
+#
+#	This file is part of the OrangeFox Recovery Project
 # 	Copyright (C) 2023 The OrangeFox Recovery Project
 #	
 #	OrangeFox is free software: you can redistribute it and/or modify
