@@ -135,6 +135,9 @@ PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 TW_HAS_MTP := true
 TW_MTP_DEVICE := /dev/mtp_usb
 
+# Fastbootd support 
+TW_INCLUDE_FASTBOOTD := true
+
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TWRP_EVENT_LOGGING := true
