@@ -207,6 +207,8 @@ TW_DEVICE_VERSION := A15
 TW_STATUS_ICONS_ALIGN := center
 TW_CUSTOM_CLOCK_POS := "300"
 
-#PBRP_FLAGS
+# PBRP specific build flags
+PB_DISABLE_DEFAULT_DM_VERITY := true
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
 PB_TORCH_PATH := "/sys/devices/virtual/torch/torch/torch_level"
 PB_TORCH_MAX_BRIGHTNESS := 1
