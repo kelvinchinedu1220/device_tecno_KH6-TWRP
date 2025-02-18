@@ -149,9 +149,6 @@ TW_USE_FSCRYPT_POLICY := 2
 TW_HAS_MTP := true
 TW_MTP_DEVICE := /dev/mtp_usb
 
-# Fastbootd
-TW_INCLUDE_FASTBOOTD := true
-
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TWRP_EVENT_LOGGING := true
@@ -201,7 +198,7 @@ RECOVERY_SDCARD_ON_DATA := true
 TW_USE_EXTERNAL_STORAGE := true
 
 # Device 
-TW_DEVICE_VERSION := A15
+TW_DEVICE_VERSION := NINO
 
 # StatusBar
 TW_STATUS_ICONS_ALIGN := center
