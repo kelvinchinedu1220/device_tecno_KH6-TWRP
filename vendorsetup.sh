@@ -1,4 +1,4 @@
-
+#
 # Copyright (C) 2023 The OrangeFox Recovery Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -37,7 +37,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export FOX_BUILD_TYPE=Unofficial
     # export FOX_ENABLE_LAB=1
     
-    export TARGET_DEVICE_ALT="KH6"
+      export TARGET_DEVICE_ALT="KH6"
       export OF_MAINTAINER="NINO"
 
     export OF_AB_DEVICE=1
@@ -52,7 +52,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
     export FOX_USE_TAR_BINARY=1
     export FOX_USE_XZ_UTILS=1
     export TARGET_DEVICE_ALT="KH6"
-	 export OF_TARGET_DEVICES="KH6"
 
     # Temp
     export OF_NO_SPLASH_CHANGE=1
