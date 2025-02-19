@@ -31,7 +31,7 @@
 	    export FOX_ENABLE_APP_MANAGER=0
 	    export FOX_DISABLE_APP_MANAGER=1
         export FOX_DELETE_MAGISK_ADDON=1
-           export FOX_DISABLE_ORANGEFOX_ZIP_INSTALLER=I
+           export FOX_DISABLE_UPDATEZIP=1
         
 	# use system (ROM) fingerprint where available
         export OF_USE_SYSTEM_FINGERPRINT=1
