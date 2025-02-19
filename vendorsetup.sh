@@ -32,7 +32,8 @@
 	    export FOX_DISABLE_APP_MANAGER=1
         export FOX_DELETE_MAGISK_ADDON=1
            export FOX_DISABLE_ORANGEFOX_ZIP_INSTALLER=I
-        # use system (ROM) fingerprint where available
+        
+	# use system (ROM) fingerprint where available
         export OF_USE_SYSTEM_FINGERPRINT=1
 
 	# OTA for custom ROMs
