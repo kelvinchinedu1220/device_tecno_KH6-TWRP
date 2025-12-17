@@ -137,7 +137,6 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.
 TW_EXCLUDE_DEFAULT_USB_INIT := true
 TW_HAS_MTP := true
 BOARD_HAS_NO_REAL_SDCARD := true
-TW_INCLUDE_INJECTTWRP := true
 
 ## TWRP-Specific configuration
 TW_EXCLUDE_APEX := true
