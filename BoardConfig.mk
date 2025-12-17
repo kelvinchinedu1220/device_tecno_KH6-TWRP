@@ -148,6 +148,9 @@ TW_EXCLUDE_TZDATA := true
 TW_EXCLUDE_BASH := true
 TW_EXCLUDE_LPTOOLS := true
 TW_EXCLUDE_LPDUMP := true
+TW_NO_BATT_PERCENT := true
+TW_NO_CPU_TEMP := true
+TW_OEM_BUILD := true
 
 # resetprop and magiskboot
 TW_INCLUDE_RESETPROP := true
