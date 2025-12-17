@@ -125,9 +125,9 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 # TWRP Configuration
 TARGET_RECOVERY_LCD_BACKLIGHT_PATH := \"/sys/class/leds/lcd-backlight/brightness\"
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
-TW_MAX_BRIGHTNESS := 1200
-TW_DEFAULT_BRIGHTNESS := 900
-TW_SCREEN_BLANK_ON_BOOT := true
+TW_MAX_BRIGHTNESS := 900
+TW_DEFAULT_BRIGHTNESS := 700
+TW_SCREEN_BLANK_ON_BOOT := false
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_EXTRA_LANGUAGES := false
@@ -135,9 +135,9 @@ TW_DEFAULT_LANGUAGE := en
 TARGET_USES_MKE2FS := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
 TW_EXCLUDE_DEFAULT_USB_INIT := true
-TW_DEVICE_VERSION := SPARK 9t by nino
 TW_HAS_MTP := true
-RECOVERY_SDCARD_ON_DATA := true
+BOARD_HAS_NO_REAL_SDCARD := true
+TW_INCLUDE_INJECTTWRP := true
 
 ## TWRP-Specific configuration
 TW_EXCLUDE_APEX := true
@@ -151,6 +151,7 @@ TW_EXCLUDE_LPDUMP := true
 TW_NO_BATT_PERCENT := true
 TW_NO_CPU_TEMP := true
 TW_OEM_BUILD := true
+TW_EXCLUDE_TWRPAPP := true
 
 # resetprop and magiskboot
 TW_INCLUDE_RESETPROP := true
