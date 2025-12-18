@@ -131,7 +131,6 @@ TW_NO_SCREEN_BLANK := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_EXTRA_LANGUAGES := false
-TW_DEFAULT_LANGUAGE := en
 TARGET_USES_MKE2FS := true
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /config/usb_gadget/g1/functions/mass_storage.usb0/lun.%d/file
 TW_EXCLUDE_DEFAULT_USB_INIT := true
@@ -150,7 +149,7 @@ TW_EXCLUDE_LPDUMP := true
 TW_NO_BATT_PERCENT := true
 TW_NO_CPU_TEMP := true
 TW_OEM_BUILD := true
-TW_EXCLUDE_TWRPAPP := true
+TW_NO_FASTBOOT_BOOT := true
 
 # resetprop and magiskboot
 TW_INCLUDE_RESETPROP := true
@@ -158,5 +157,5 @@ TW_INCLUDE_REPACKTOOLS := true
 TW_INCLUDE_LIBRESETPROP :=true
 
 # Debug
-TWRP_INCLUDE_LOGCAT := true
-TARGET_USES_LOGD := true
+TWRP_INCLUDE_LOGCAT := false
+TARGET_USES_LOGD := false
