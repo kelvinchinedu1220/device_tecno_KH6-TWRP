@@ -86,17 +86,3 @@ RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libpuresoftkeymasterdevice.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so
-
-## Add additional libraries for Trustonic TEE
-TARGET_RECOVERY_DEVICE_MODULES += libMcClient libTeeClient libkmsetkey libtrustonic
-TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libMcClient.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libTeeClient.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libkmsetkey.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/vendor.trustonic.tee@1.0.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/vendor.trustonic.tee@1.1.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/vendor.trustonic.tee.tui@1.0.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libMcGatekeeper.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/gatekeeper.trustonic.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/kmsetkey.trustonic.so
-
