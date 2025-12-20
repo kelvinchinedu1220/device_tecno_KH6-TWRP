@@ -56,7 +56,9 @@
 /spmfw		    emmc	/dev/block/by-name/spmfw            flags=display="Spmfw";backup=1;slotselect
 /sspm		    emmc	/dev/block/by-name/sspm           flags=display="sspm";backup=1;slotselect
 
-# External-Devices (SDCARD | OTG)
+# Removable storage
 /external_sd    auto     /dev/block/mmcblk1p1  /dev/block/mmcblk1            flags=display="External_SDcard";storage;wipeingui;removable;fsflags="utf8"
 /usbotg        auto     /dev/block/mmcblk1p2  /dev/block/mmcblk1p2                     flags=display="Usb_Otg";storage;wipeingui;removable;fsflags="utf8"
 /usb-otg	auto		/dev/block/sdf1		/dev/block/sdf			flags=display="USB-OTG";storage;wipeingui;removable
+/sdcard1            auto       /dev/block/mmcblk1p1   /dev/block/mmcblk1   flags=display="MicroSD";storage;wipeingui;removable;fsflags="utf8"
+/usb_otg            vfat      /dev/block/sda1        /dev/block/sda        flags=display="USB OTG";storage;wipeingui;removable;fsflags="utf8"
