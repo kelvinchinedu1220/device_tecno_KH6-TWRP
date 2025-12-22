@@ -187,3 +187,4 @@ TW_NO_USB_STORAGE := true
 TW_USE_TOOLBOX := true
 TW_USE_TOOLBOX := true
 TW_NO_USB_STORAGE := true
+TW_EXCLUDE_BASH := true
