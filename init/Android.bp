@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "libinit_Infinix-X663",
+    name: "libinit_tecno-KH6",
     header_libs: [
         "libbase_headers",
     ],
@@ -9,6 +9,6 @@ cc_library_static {
     static_libs: [
         "libbase",
     ],
-    srcs: ["init_Infinix-X663.cpp"],
+    srcs: ["init_tecno-KH6.cpp"],
     recovery_available: true,
 }
